@@ -1,0 +1,58 @@
+/* 全局设置 */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+}   
+
+/* 顶部导航栏 */
+.navbar {
+    background-color: #cb3737;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1877f2;
+}
+
+/* 按钮 */
+.nav-buttons .btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login {
+    background-color: #e4e6eb;
+}
+
+.register {
+    background-color: #1877f2;
+    color: white;
+}
+
+/* 内容区 */
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.post-box {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
